@@ -42,6 +42,25 @@
         "--enable-impeller",
         "--dart-define-from-file=.kazumi_build_defines.env"
       ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/lenovo/Desktop/karume/Kazumi/windows/runner",
+      "program": "c:/Users/lenovo/Desktop/karume/Kazumi/windows/runner/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }
